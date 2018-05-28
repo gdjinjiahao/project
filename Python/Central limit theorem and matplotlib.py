@@ -36,6 +36,6 @@ print(samples_mean)
 #samples_mean=[1,1,2,3,3,3,4,4,4,5,5,5,6,6,6]
 fig=plt.figure()
 ax=fig.add_subplot(111)
-ax.hist(samples_mean,bins=25)
+ax.hist(samples_mean,bins=20)
 plt.show()
 
